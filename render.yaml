@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: nume-aplicatie-mea # Pune ce nume vrei tu aici
-    env: static              # Sau 'node' dacă ai un server de backend
-    buildCommand: npm run build # Comanda de build (dacă e cazul)
-    publishDir: dist         # Folderul unde se generează site-ul (ex: dist, build, sau '.')
+    name: nume-aplicatie-mea
+    env: static
+    buildCommand: ""        # Lasă gol dacă nu ai npm/build
+    staticPublishPath: .   # Înseamnă că publici tot ce e în root
