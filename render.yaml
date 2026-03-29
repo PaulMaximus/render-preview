@@ -4,3 +4,4 @@ services:
     env: static
     buildCommand: ""        # Lasă gol dacă nu ai npm/build
     staticPublishPath: .   # Înseamnă că publici tot ce e în root
+    previews.generation: automatic
